@@ -1,0 +1,20 @@
+body, html {
+  height: 100%;
+  background-color:rgb(25, 41, 41);
+  color: white;
+}
+.bg1 {
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg"); 
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h6 {
+  line-height: 1.7;
+}
+.bg2{
+background-image: url("https://www.pexels.com/video/a-foggy-landscape-1911457/");
+  background-color: gray;
+}
