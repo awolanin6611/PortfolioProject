@@ -36,7 +36,9 @@
 
     <div class="bg"></div>
     <p class="py-5 text-center">
-    <div class="centered"><h2>Adam Wolanin</h2></div>
+        <div class="centered">
+            <h2>Adam Wolanin</h2>
+        </div>
     </p>
 
 
@@ -46,20 +48,40 @@
 <body>
 
     <h2>Adam Wolanin</h2>
-    <p class="py-5 text-center">Hello I am Adam Wolanin, I am currently a developer in training. I have nearly 10 year of work experience in a wide spectrum of industries. Whenever I am not developing my skills as a coder I am playing either on the soccer pitch or playing videogames. If you are interested in collaborting with me on developing or just in contacting me please fill out the form below and I will be able to get in contact with you. </p>
+    <p class="py-5 text-center">Hello I am Adam Wolanin, I am currently a developer in training. I have nearly 10 year
+        of work experience in a wide spectrum of industries. Whenever I am not developing my skills as a coder I am
+        playing either on the soccer pitch or playing videogames. If you are interested in collaborting with me on
+        developing or just in contacting me please fill out the form below and I will be able to get in contact with
+        you. </p>
     <form action="https://formspree.io/awolanin6611@gmail.com" method="POST">
-        <input type="text" name="name" placeholder="Name">
-        <input type="email" name="_replyto" placeholder="Email">
-        <input type="text" name="comments" placeholder="comment">
-        <input type="submit" value="Send">
+        <div class="container">
+            <form action="action_page.php">
+                <div>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+                <div>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+                <div>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+                </div>
+                <input type="submit" value="Submit">
+
+        </div>
     </form>
+
 </body>
 <div class="card-group">
     <div class="card1" style="width: 18rem;">
         <img class="card-img-top" src="assets/github.png" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">Github</h5>
-            <p class="card-text">This is a pathway to my GitHub repositories so you can access all of present and current projects.</p>
+            <p class="card-text">This is a pathway to my GitHub repositories so you can access all of present and
+                current projects.</p>
             <a href="https://github.com/awolanin6611?tab=repositories" class="btn btn-secondary">Too Github</a>
         </div>
     </div>
@@ -67,7 +89,8 @@
         <img class="card-img-top" src="assets/facebookicon.png" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">Facebook</h5>
-            <p class="card-text">This a path to my Facebook so you can see the kind of life I lead outside of coding.</p>
+            <p class="card-text">This a path to my Facebook so you can see the kind of life I lead outside of coding.
+            </p>
             <a href="https://www.facebook.com/adam.wolanin.524" class="btn btn-secondary">Too Facebook</a>
         </div>
     </div>
@@ -89,8 +112,8 @@
     </div>
 </div>
 <footer>
-        <p>© 2018 Gandalf</p>
-    </footer>
+    <p>© 2018 Gandalf</p>
+</footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
