@@ -3,6 +3,12 @@ body, html {
   background-color:rgb(25, 41, 41);
   color: white;
 }
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 body .bg { 
 background-image: url("assets/waterfall.jpeg");
   height: 90%;
@@ -11,10 +17,12 @@ background-image: url("assets/waterfall.jpeg");
   background-size: cover;
 }
 .card{
-  border: black;
-  border-radius: 50%;
-  height: 25px;
-  width: 50px;
+  background-color:rgb(25, 41, 41);
+  border: rgb(25, 41, 41);
+  height: 300px;
+  width: 250px;
+  padding: 50px;
+  align-content: center;
 }
 .card1{
   height: 300px;
